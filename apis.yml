@@ -1,8 +1,26 @@
 aid: change
-name: change
-description: change is a company surfaced as a portfolio company of slow-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Change.org
+description: >-
+  Change.org is an independent, nonprofit-owned social-change platform where anyone
+  can start, sign, and win petitions. With over 500 million users worldwide, it lets
+  people launch campaigns on social, political, and community issues, collect signatures,
+  engage decision makers, and reach the media to drive real-world outcomes. Surfaced as
+  a portfolio company of Slow Ventures and profiled in the API Evangelist network. Change.org's
+  historical public developer/petitions API has been deprecated and is no longer maintained;
+  no first-party OpenAPI, SDK, or hosted MCP server is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/change/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static.change.org/favicon/favicon-400x400.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Nonprofit
+- Petitions
+- Advocacy
+- Social Impact
+- Civic Engagement
+- Social Change
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +46,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://change.org
+  url: https://www.change.org
+- type: Support
+  url: https://help.change.org/en_US
+- type: Blog
+  url: https://www.change.org/l/us
+- type: TermsOfService
+  url: https://www.change.org/policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.change.org/policies/privacy
+- type: WellKnown
+  url: well-known/change-well-known.yml
+- type: SecurityTxt
+  url: well-known/change-security.txt
+- type: DomainSecurity
+  url: security/change-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/change-vulnerability-disclosure.yml
+- type: Security
+  url: https://hackerone.com/change
+- type: LLMsTxt
+  url: llms/change-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
